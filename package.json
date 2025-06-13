@@ -1,6 +1,6 @@
 {
-  "name": "astrofy",
-  "description": "Astrofy is a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS. Create in minutes a website with Blog, CV, Project Section, Store and RSS Feed.",
+  "name": "42x.online",
+  "description": "On this site, you'll find insights into my professional journey, my investment strategies, and the projects I'm currently working on. Whether you're looking to learn from my experiences, explore collaboration opportunities, or simply connect, you're in the right place. Feel free to browse through my blog, portfolio, and contact information. Let's embark on a journey of growth and success together!",
   "type": "module",
   "version": "3.0.0",
   "private": true,

@@ -2,9 +2,9 @@
 title: "Digital Asset Investment Strategy in China"
 description: "Through this blog, you will gain an initial understanding of the Chinese digital collectibles market."
 pubDate: "Apr 27 2025"
-heroImage: "/nft.jpg"
-badge: "NFT"
-tags: ["Investment"]
+heroImage: "/topnod.jpg"
+badge: "1"
+tags: ["NFT Investment"]
 ---
 
 The First Step in Digital Collectible Investment: Choosing the Right Platform

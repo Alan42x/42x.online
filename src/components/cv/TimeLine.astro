@@ -1,5 +1,5 @@
 ---
-const { title, subtitle, text } = Astro.props;
+const { title, subtitle, text, url } = Astro.props;
 ---
 
 <div class="flex">
@@ -8,7 +8,15 @@ const { title, subtitle, text } = Astro.props;
     <span class="education__line bg-primary block h-full w-[2px] translate-x-[7px]"></span>
   </div>
   <div class="experience__data bd-grid px-5">
-    <h3 class="font-semibold text-2xl mb-1">{title}</h3>
+    <h3 class="font-semibold text-2xl mb-1">
+      {url ? (
+        <a href={url} target="_blank" class="hover:text-primary transition-colors duration-200">
+          {title}
+        </a>
+      ) : (
+        title
+      )}
+    </h3>
     <span class="font-light text-xl mb-1 block">{subtitle}</span>
     <span class="font-light text-lg block">{text}</span>
     <p class="my-2 text-justify">

@@ -5,23 +5,23 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
+    <div class="text-3xl w-full font-bold">I'm Tianyi Zhang</div>
   </div>
 
   <div class="pb-12 mt-5">
       <div class="py-2">
         <text class="text-lg">
-          I'm Tianyi Zhang.
+          Every experience holds many stories and valuable lessons. Click the link to learn more details. I look forward to discussing those key moments that have driven my continuous growth with you!
         </text>
       </div>
       <div class="mt-8">
-        <a class="btn" href="/cv_en.pdf" target="_blank"> Download English Resume</a>
-        <a class="btn" href="/cv_cn.pdf" target="_blank"> Download Chinese Resume</a>
+        <a class="btn" href="/English Resume.pdf" target="_blank"> English Resume</a>
+        <a class="btn" href="/Chinese Resume.pdf" target="_blank"> Chinese Resume</a>
       </div>
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Education</div>
+    <div class="text-3xl w-full font-bold">Education Background</div>
   </div>
 
   <div class="time-line-container grid gap-4 mb-10">
@@ -39,85 +39,50 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   
     <TimeLineElement
       title="Jilin University"
-      subtitle="School of Communication Engineering"
-      text="Major:Communication Engineering"
+      subtitle="School of Communication Engineering & School of Economy"
+      text="Major:Communication Engineering & Minor:Finance"
     >
       <div class="flex space-x-8 mb-2">
-        <span>Bachelor’s Degree</span>
-        <span>Rank:18%</span>
+        <span>Double Bachelor's Degree</span>
+        <span>Major Rank:18%</span>
         <span>09/2021-06/2025</span>
       </div>
     </TimeLineElement>
-
-    <TimeLineElement
-      title="Jilin University"
-      subtitle="School of Economy"
-      text="Minor:Finance"
-    >
-      <div class="flex space-x-8 mb-2">
-        <span>Bachelor’s Degree</span>
-        <span>09/2022-06/2024</span>
-      </div>
-    </TimeLineElement>
-
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Scientific Research</div>
+    <div class="text-3xl w-full font-bold">Scientific Experience</div>
   </div>
 
   <div class="time-line-container mb-10">
     <TimeLineElement
       title="National University of Singapore Summer Program "
       subtitle="July 2023 at National University of Singapore, Singapore"
+      url=""
     >
-      Research Topic: Data Analytics and Mathematical Statistics <br />
-      Research Content: Analysis of the relationship between PM2.5 and PM10 in different regions of Germany using
-      mathematical modelling based on the WHO database <br />
-      <strong>Presentation Group 1st; Individual A Distinction and recommended by Prof. Dr. Edmund Low; Recognised in
-      Jilin University’s internal notification</strong>
-    </TimeLineElement>
-
-     <TimeLineElement
-      title="The 2nd International Conference on Digital Economy and Management Science (CDEMS 2024)"
-      subtitle="April 2024 in Wuhan, China"
-    >
-      Research Paper: Unleashing NFT Liquidity with DeFi - Current State of NFTFi Translation <br />
-      The paper was accepted and indexed by CPCI, CNKI, and Google Scholar
+    <strong>Research Content: </strong> Linear Regression Analysis of PM10 and PM2.5 Correlation in German Cities
+    <br />
+    Served as the team leader and reported that the first person in the group received an A Distinction and was recommended by Professor Dr. Edmund Low. Received recognition upon notification within Jilin University
     </TimeLineElement>
 
     <TimeLineElement
-      title="Undergraduate Research Training Program"
+      title="Unleashing NFT Liquidity with DeFi Current State of NFTFi Translation"
+      subtitle="January 2023 at The Chinese University of Hong Kong, Hong Kong, China"
+      url="https://www.atlantis-press.com/proceedings/cdems-24/126002527"
+    >
+    Received an A+ and was recommended by Professor Wu Jing to participate in the 2nd International Conference on Digital Economy and Management Science (CDEMS 2024). The paper has been included in the CPCI CNKI Google Scholar
+    </br>
+    <strong>Research Content: </strong>Studied the financialisation paths of NFTs by systematically reviewing four major application areas: NFT lending, derivatives, fractionalization, and leasing. Conducted an in-depth analysis of the Blend protocol's innovative mechanisms for improving NFT liquidity. Summarized how DeFi technologies address key challenges in NFT valuation and capital inefficiency.
+    </TimeLineElement>
+
+    <TimeLineElement
+      title="Jilin University Undergraduate Research Training Program"
       subtitle="From December 2023 to June 2025 at Jilin University, Changchun, China"
     >
-      Research Topic: Signal Type Recognition Algorithm Based on Deep Learning <br />
-      Research Content: Research on automatic classification and recognition of signal types using deep learning techniques,
-      development and optimization of signal processing algorithms to improve the accuracy and recognition of different
-      signals efficiency
+    <strong>Research Content: </strong>Signal Type Recognition Algorithm Based on Invariant Scattering Convolutional Network
+    <br />
+    Designed and implemented a modulation recognition algorithm based on the Invariant Scattering Convolution Network (ISCN), using scattering coefficients as feature inputs. The algorithm combines Long Short-Term Memory (LSTM) networks, sub-spectral normalization, and residual modules to enhance signal recognition accuracy. To mitigate noise interference, a wavelet threshold denoising step was integrated, significantly improving the stability and accuracy of signal recognition.
     </TimeLineElement>
-
-    <TimeLineElement
-      title="Blockchain and Metaverse Digital Economy Development Research"
-      subtitle="From February 2023 to April 2023 at Central University of Finance and Economics, Beijing, China"
-    >
-      Research Topic: A Supply Chain Management Framework Based on Blockchain and Federated Learning <br />
-      Research Content: Explore how to combine the decentralized nature of blockchain and the privacy protection
-      mechanism of federated learning to build a secure and efficient supply chain management framework for data sharing
-      and collaborative optimization to enhance supply chain transparency, data privacy and overall operational efficiency<br />
-      <strong>Received an A and a recommendation from Prof. Weiyu Gu</strong>
-    </TimeLineElement>
-
-    <TimeLineElement
-      title="Digital Finance/ Big Data and Artificial Intelligence in Fintech Applications"
-      subtitle="January 2023 at The Chinese University of Hong Kong, Hong Kong, China"
-    >
-      Research Topic: Unleashing NFT Liquidity with DeFi - Current State of NFTFi Translation <br />
-      Research Content: Analysis approaches to solving liquidity problems in the NFT market through DeFi technology,
-      explore the four main paths of NFTFi (lending, derivatives, fragmentation, leasing) and their current status of
-      development, with a focus on the success of the Blend protocol and its impact on the NFT market<br />
-      <strong>Earned an A+ and received a recommendation from Prof. Jing Wu for outstanding research performance</strong>
-    </TimeLineElement>
-
   </div>
 
   <div class="mb-5">
@@ -127,64 +92,67 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   <div class="time-line-container mb-10">
    
     <TimeLineElement
-      title="Intern of Elite Practice Centre"
-      subtitle="February 2023 at China Everbright Bank, Changchun, China"
+      title="China Everbright Bank"
+      subtitle="Intern of Elite Practice Centre"
     >
-    <strong>Awarded as Outstanding Intern and received a recommendation letter from the bank manager.</strong>
+    February 2023 at China Everbright Bank, Changchun, China
     <br />
-    Involved in field visits and analyses of banking business processes to gain an in-depth understanding of the
-    operational mechanisms and market dynamics of financial services.
+    Recognized as an Outstanding Intern and personally recommended by the Bank President.
     <br />
-    Assisted in completing data collection and analysis to provide decision support to the department and enhance
-    project execution efficiency.
-    <br />
-    Participated in team discussions and made optimisation suggestions to improve customer service quality and
-    enhance customer experience.
-    <br />
-    Attended training courses to enhance financial knowledge and professional skills, teamwork and communication
-    skills.
+    <strong>Work Description: </strong>Participated in banking business process research and analysis, supported multidimensional data
+    collection and decision-making; promoted optimization of customer service processes to enhance customer experience.
     </TimeLineElement>
 
     <TimeLineElement
-      title="Intern of Information Technology Department"
-      subtitle="From January 2024 to February 2024 at China Merchants Bank, Changchun, China"
+      title="China Merchants Bank"
+      subtitle="Intern – System Development, Information Technology Department"
     >
-      <strong>VBA Programme Development: </strong>Developed and maintained VBA-based automation programmes to improve the efficiency of daily workflow and reduce manual errors.
-      <br />
-      <strong>Branch Honor System Development: </strong>Participated in the design and implementation of the branch honor system, formulated evaluation criteria and incentives to enhance staff motivation and teamwork based on blockchain technology and NFT.
-      <br />
-      <strong>Code Optimization: </strong>Adopted best practices and design patterns to improve code readability and maintainability and provided support for team development; Implemented data backup and recovery strategies to reduce the risk of data loss and improve system stability.
-      <br />
-      <strong>Database Maintenance and Management: </strong>checked and updated the database regularly to ensure data integrity and accuracy.
+    From January 2024 to February 2024 at China Merchants Bank, Changchun, China
+    <br />
+    <strong>Work Description: </strong>Responsible for developing and maintaining VBA automation programs to improve work efficiency and reduce errors; participated in designing a blockchain- and NFT-based honor system to support employee evaluation and incentive mechanisms; optimized code structure to enhance maintainability; implemented data backup and recovery to ensure system stability and data integrity.
     </TimeLineElement>
   </div>
 
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Extracurricular Activity</div>
   </div>
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Alibaba ModelScope AI Large Model & AIGC Project Training Camp"
+      subtitle="Served as team leader, led the team to win first prize, and delivered the acceptance speech on behalf of the winning team."
+      url="https://mp.weixin.qq.com/s/0n5UBtRkJguUDtucS6GanQ"
+    >
+    Trained LoRA based on the Kolors model to achieve efficient transfer of diverse artistic styles; generated ≥8 coherently styled images to create a complete visual story; systematically evaluated the aesthetics and coherence of LoRA-generated styles to quantify model performance.
+    </TimeLineElement>
 
-   <ul class="list-disc mx-6 mb-10 grid gap-2">
-    <li>
-      <a href="#" target="_blank"> Head of Research Department at Jilin University Quantitative Investment Association </a>
-    </li>
-    <li>
-      <a href="#" target="_blank"> “Zhiyuan Plan” International Digital Education Course:Artificial Intelligence Foundations & Wireless Communications System Design </a>
-    </li>
-    <li>
-      <a href="#" target="_blank"> Global Energy and Climate Governance Teaching and Research Platform Project </a>
-    </li>
-  </ul>
+    <TimeLineElement
+      title="China Mobile M-Zone AI+ Innovation Program for Universities"
+      subtitle="Northeast Regional First Prize, AI Technology Track Outstanding Award at the National Finals, Nankai University"
+      url="https://baijiahao.baidu.com/s?id=1819872052447438871&wfr=spider&for=pc"
+    >
+    Designed and implemented an AI model based on human pose recognition to accurately classify Baduanjin and Wuqinxi movements, enhancing robustness in feature extraction and recognition of complex actions; developed a spatiotemporal fine-grained analysis model that integrates skeletal features and motion trajectories to objectively score the accuracy of movements, addressing the challenges of quantifying traditional manual assessments.
+    </TimeLineElement>
+  </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Certifications</div>
+    <div class="text-3xl w-full font-bold">Certificates</div>
   </div>
 
   <ul class="list-disc mx-6 mb-10 grid gap-2">
     <li>
-      <a href="#" target="_blank"> Three consecutive years of the Third-Class Scholarship from 2021 to 2024 </a>
+      <a href="#" target="_blank"> Four consecutive years of the Third-Class Scholarship from 2021 to 2025 & 2025 Academic Technology Award </a>
     </li>
     <li>
       <a href="#" target="_blank"> AIGC Application Development Engineer, China Software Industry Association </a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> Head of Research Department at Jilin University Quantitative Investment Association </a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> "Zhiyuan Plan" International Digital Education Course:Artificial Intelligence Foundations & Wireless Communications System Design </a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> Global Energy and Climate Governance Teaching and Research Platform Project </a>
     </li>
   </ul>
 
@@ -193,7 +161,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   </div>
 
   <ul class="list-disc mx-6 space-y-2 text-base">
-    <li><strong>Language Skills:</strong> IELTS: 6.5 </li>
+    <li><strong>Language Skills:</strong>Chinese (Native), English (IELTS 6.5 ; L:6 R:7.5 W:6 S:5.5)</li>
     <li><strong>IT Skills:</strong> Go, C, C++, Java, Python (PyTorch), SQL, Matlab, R, HTML, CSS, JavaScript, Hadoop, Hyperledger</li>
     <li><strong>Investment Experience:</strong> Extensive experience in the Chinese stock market, Hong Kong stock market, and cryptocurrency markets. Early adopter of digital collectibles in China and contributor to multiple international NFT projects. </li>
   </ul>
