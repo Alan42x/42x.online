@@ -27,6 +27,8 @@ import { Image } from "astro:assets";
             src={img}
             alt={title}
             class="max-w-full md:max-w-[13rem] rounded-lg"
+            loading="lazy"
+            decoding="async"
           />
         )
       }
