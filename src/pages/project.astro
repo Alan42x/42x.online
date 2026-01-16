@@ -1,0 +1,43 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title = "Project" sideBarActiveItemID="project">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">VirtuVault Captial</div>
+  </div>
+
+  <HorizontalCard
+    title="Hiding without seeking personal gain and benefiting the world with kindness"
+    img="/VirtuVault Captial.jpg"
+    desc="By empowering capital, we aim to build an ecological loop for digital art IP, enabling the entire process of digital art creation, incubation, trading, and inheritance."
+    url=""
+  />
+  <div class="divider my-0"></div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">ZLink Intelligence</div>
+  </div>
+
+  <HorizontalCard
+    title="Empower every digital identity with intelligent value"
+    img="/ZLink Intelligence.jpg"
+    desc="ZLink Intelligence focuses on the integration of digital collectibles and KOL intelligent agents, creating an innovative concept of 'thinking chain replication' and an AI low code platform, helping content creators achieve digital assetization and commercial monetization, building an efficient intelligent agent system, promoting digital identity upgrading and ecological closed-loop, and driving steady business growth."
+    url="/ZLink Intelligence WeChat.jpg"
+    badge=""
+  />
+  <div class="divider my-0"></div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">SoulWave</div>
+  </div>
+
+  <HorizontalCard
+    title=""
+    img="/SoulWave.jpg"
+    desc="As a cultural pioneer in the wave of China-Chic, SoulWave, inspired by the essence of Chinese culture and museum, integrates contemporary fashion art to create a creative expression with both traditional heritage and modern aesthetics. It is not only a cultural bridge connecting history and the future, but also an important carrier of the new generation's cultural attitudes."
+    url="/Topnod SoulWave.jpg"
+  />
+  <div class="divider my-0"></div>
+</BaseLayout>
