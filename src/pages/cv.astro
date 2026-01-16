@@ -1,0 +1,169 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">I'm Zhang Tianyi</div>
+  </div>
+
+  <div class="pb-12 mt-5">
+      <div class="py-2">
+        <text class="text-lg">
+          Every experience holds many stories and valuable lessons. Click the link to learn more details. I look forward to discussing those key moments that have driven my continuous growth with you!
+        </text>
+      </div>
+      <div class="mt-8">
+        <a class="btn" href="/English Resume.pdf" target="_blank"> English Resume</a>
+        <a class="btn" href="/Chinese Resume.pdf" target="_blank"> Chinese Resume</a>
+      </div>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education Background</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+
+    <TimeLineElement
+      title="National University of Singapore"
+      subtitle="School of Computing"
+      text="Master of Science in Digital Financial Technology"
+    >
+       <div class="flex space-x-8 mb-2">
+        <span>Master's Degree</span>
+        <span>08/2025-12/2026</span>
+      </div>
+    </TimeLineElement>
+  
+    <TimeLineElement
+      title="Jilin University"
+      subtitle="School of Communication Engineering & School of Economy"
+      text="Major:Communication Engineering & Minor:Finance"
+    >
+      <div class="flex space-x-8 mb-2">
+        <span>Double Bachelor's Degree</span>
+        <span>Major Rank:18%</span>
+        <span>09/2021-06/2025</span>
+      </div>
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Scientific Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="National University of Singapore Summer Program "
+      subtitle="July 2023 at National University of Singapore, Singapore"
+      url=""
+    >
+    <strong>Research Content: </strong> Linear Regression Analysis of PM10 and PM2.5 Correlation in German Cities
+    <br />
+    Served as the team leader and reported that the first person in the group received an A Distinction and was recommended by Professor Dr. Edmund Low. Received recognition upon notification within Jilin University
+    </TimeLineElement>
+
+    <TimeLineElement
+      title="Unleashing NFT Liquidity with DeFi Current State of NFTFi Translation"
+      subtitle="January 2023 at The Chinese University of Hong Kong, Hong Kong, China"
+      url="https://www.atlantis-press.com/proceedings/cdems-24/126002527"
+    >
+    Received an A+ and was recommended by Professor Wu Jing to participate in the 2nd International Conference on Digital Economy and Management Science (CDEMS 2024). The paper has been included in the CPCI CNKI Google Scholar
+    </br>
+    <strong>Research Content: </strong>Studied the financialisation paths of NFTs by systematically reviewing four major application areas: NFT lending, derivatives, fractionalization, and leasing. Conducted an in-depth analysis of the Blend protocol's innovative mechanisms for improving NFT liquidity. Summarized how DeFi technologies address key challenges in NFT valuation and capital inefficiency.
+    </TimeLineElement>
+
+    <TimeLineElement
+      title="Jilin University Undergraduate Research Training Program"
+      subtitle="From December 2023 to June 2025 at Jilin University, Changchun, China"
+    >
+    <strong>Research Content: </strong>Signal Type Recognition Algorithm Based on Invariant Scattering Convolutional Network
+    <br />
+    Designed and implemented a modulation recognition algorithm based on the Invariant Scattering Convolution Network (ISCN), using scattering coefficients as feature inputs. The algorithm combines Long Short-Term Memory (LSTM) networks, sub-spectral normalization, and residual modules to enhance signal recognition accuracy. To mitigate noise interference, a wavelet threshold denoising step was integrated, significantly improving the stability and accuracy of signal recognition.
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Internship Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+   
+    <TimeLineElement
+      title="China Everbright Bank"
+      subtitle="Intern of Elite Practice Centre"
+    >
+    February 2023 at China Everbright Bank, Changchun, China
+    <br />
+    Recognized as an Outstanding Intern and personally recommended by the Bank President.
+    <br />
+    <strong>Work Description: </strong>Participated in banking business process research and analysis, supported multidimensional data
+    collection and decision-making; promoted optimization of customer service processes to enhance customer experience.
+    </TimeLineElement>
+
+    <TimeLineElement
+      title="China Merchants Bank"
+      subtitle="Intern – System Development, Information Technology Department"
+    >
+    From January 2024 to February 2024 at China Merchants Bank, Changchun, China
+    <br />
+    <strong>Work Description: </strong>Responsible for developing and maintaining VBA automation programs to improve work efficiency and reduce errors; participated in designing a blockchain- and NFT-based honor system to support employee evaluation and incentive mechanisms; optimized code structure to enhance maintainability; implemented data backup and recovery to ensure system stability and data integrity.
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Extracurricular Activity</div>
+  </div>
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Alibaba ModelScope AI Large Model & AIGC Project Training Camp"
+      subtitle="Served as team leader, led the team to win first prize, and delivered the acceptance speech on behalf of the winning team."
+      url="https://mp.weixin.qq.com/s/0n5UBtRkJguUDtucS6GanQ"
+    >
+    Trained LoRA based on the Kolors model to achieve efficient transfer of diverse artistic styles; generated ≥8 coherently styled images to create a complete visual story; systematically evaluated the aesthetics and coherence of LoRA-generated styles to quantify model performance.
+    </TimeLineElement>
+
+    <TimeLineElement
+      title="China Mobile M-Zone AI+ Innovation Program for Universities"
+      subtitle="Northeast Regional First Prize, AI Technology Track Outstanding Award at the National Finals, Nankai University"
+      url="https://baijiahao.baidu.com/s?id=1819872052447438871&wfr=spider&for=pc"
+    >
+    Designed and implemented an AI model based on human pose recognition to accurately classify Baduanjin and Wuqinxi movements, enhancing robustness in feature extraction and recognition of complex actions; developed a spatiotemporal fine-grained analysis model that integrates skeletal features and motion trajectories to objectively score the accuracy of movements, addressing the challenges of quantifying traditional manual assessments.
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certificates</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="#" target="_blank"> Four consecutive years of the Third-Class Scholarship from 2021 to 2025 & 2025 Academic Technology Award </a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> AIGC Application Development Engineer, China Software Industry Association </a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> Head of Research Department at Jilin University Quantitative Investment Association </a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> "Zhiyuan Plan" International Digital Education Course:Artificial Intelligence Foundations & Wireless Communications System Design </a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> Global Energy and Climate Governance Teaching and Research Platform Project </a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+  <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc mx-6 space-y-2 text-base">
+    <li><strong>Language Skills:</strong>Chinese (Native), English (IELTS 6.5 ; L:6 R:7.5 W:6 S:5.5)</li>
+    <li><strong>IT Skills:</strong> Go, C, C++, Java, Python (PyTorch), SQL, Matlab, R, HTML, CSS, JavaScript, Hadoop, Hyperledger</li>
+    <li><strong>Investment Experience:</strong> Extensive experience in the Chinese stock market, Hong Kong stock market, and cryptocurrency markets. Early adopter of digital collectibles in China and contributor to multiple international NFT projects. </li>
+  </ul>
+
+</BaseLayout>
